@@ -20,7 +20,8 @@ function setup() {
 function draw() {
   cenario.exibe();
   cenario.move();   
-  
+
+  personagem.anima();
   personagem.exibe();
 
 }

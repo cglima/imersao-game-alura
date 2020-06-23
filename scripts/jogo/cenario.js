@@ -1,10 +1,11 @@
 class Cenario {
-  constructor(imagem, velocidade) {
-    this.imagem = imagem;
-    this.velocidade = velocidade;
-    this.x1 = 0;
-    this.x2 = width;
-  }
+
+    constructor(imagem, velocidade) {
+      this.imagem = imagem;
+      this.x1 = 0;
+      this.velocidade = velocidade;
+      this.x2 = width;
+    }
   
   exibe() {
     image(this.imagem, this.x1, 0, width, height);
@@ -23,6 +24,5 @@ class Cenario {
      if(this.x2 < - width) {
       this.x2 = width;
     }
-  }
-  
+  }  
 }
